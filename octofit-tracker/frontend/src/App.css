@@ -1,0 +1,95 @@
+
+/* App.css - Octofit Tracker custom styles */
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222b45;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1e3a8a;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+nav {
+  background: #1e293b;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(30,41,59,0.08);
+}
+
+nav .logo {
+  height: 40px;
+  margin-right: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #f1f5f9;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+nav ul li a:hover {
+  color: #38bdf8;
+}
+
+button, .btn {
+  background: linear-gradient(90deg, #38bdf8 0%, #2563eb 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(56,189,248,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #2563eb 0%, #38bdf8 100%);
+  box-shadow: 0 4px 16px rgba(56,189,248,0.16);
+}
+
+table {
+  background: #f1f5f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(30,41,59,0.06);
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+thead {
+  background: #2563eb;
+  color: #fff;
+}
+tbody tr:nth-child(even) {
+  background: #e0eafc;
+}
+tbody tr:hover {
+  background: #bae6fd;
+}
+
+/* Extra padding for main content */
+.App {
+  padding: 2rem;
+}
